@@ -1,0 +1,47 @@
+//What is OOP? List OOP......
+
+Object Oriented Programming is a paradigm that provides many concepts such as inheritance, data binding, polymorphism etc.
+There are many different types of object-oriented programming languages that all use slightly different syntaxes but share the same general concepts. 
+
+
+OOP ->  OOP means object oriented programming ,oop is a programming paradigm based on the concept of the object  
+        in which data and code contains.The data is in the form of field and the code is in the form of procedure.
+
+There are  FOUR  primary concept of OOP -> 1-Abstraction,2-Encaplusation,3-Inhertance,4-Polymorphis............
+------------------------------------------------------------------------------------------------------------------------------------------
+OOP CONCEPTS :-
+      1.   Class~
+      2.   Object~
+      3.   Encapsulation~
+      4.   Inheritance~
+      5.   Abstraction~
+      6.   Polymorphism~
+
+-->   Class and Object are pillor of OOP.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+(1)Abstraction.
+                It is a set of rules and definitions that allows one to understand a topic or issue without actually knowing about it in person or how it was developed. In Java, abstraction means simple things like object classes and variables represent more complex underlying code and data.
+ -----------------------------------------------------------------------------------------------------------------------------------------
+
+(2)Encapsulation. 
+                Encapsulation allows the definition and implementation of interfaces between different objects. Encapsulation is a protective barrier that keeps the data and code safe within the class itself.
+----------------------------------------------------------------------------------------------------------------------------------------- 
+
+(3)Inheritance.
+                Inheritance lets programmers create new classes that share some of the attributes of existing classes. 
+ ----------------------------------------------------------------------------------------------------------------------------------------
+
+
+(4)Polymorphism. 
+               Allows programmers to use the same word in Java to mean different things in different contexts.
+               One form of polymorphism is method overloading. That’s when the code itself implies different meanings. The other form is method overriding.
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+(5)CLASS.
+         A class is a template for creating objects.It defines the data and behavior that all objects of that type will share. 
+
+     
+
