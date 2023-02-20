@@ -1,0 +1,98 @@
+1.-> *DATABASE*
+
+i understand by database that is A an organized collection of structured information, or data, typically stored electronically in a computer system. A database is usually controlled by a database management system (DBMS).database are used for a storing data nd accessing any data. 
+---------------------------------------------------------------
+2.->  *NORMALIZATION....*
+
+Normalization is the process of organizing data in database.Normalization divides the larger table into smaller and links them using relationships.it is also used to eliminate undesirable characteristics like Insertion, Update, and Deletion Anomalies.
+---------------------------------------------------------------
+3.-> * DIFFERENCE BETWEEN DMBS AND RDBMS.....*
+
+DBMS stands for Database Management System, and RDBMS is the acronym for the Relational Database Management system. In DBMS, the data is stored as a file, whereas in RDBMS, data is stored in the form of tables. 
+DMBS is a database management system.......
+RDBMS is a Relational database management system.....
+---------------------------------------------------------------
+1)	DBMS applications store data as file.	
+   RDBMS applications store data in a tabular form.
+---------------------------------------------------------
+2)	In DBMS, data is generally stored in either a hierarchical form or a navigational form.	
+    In RDBMS, the tables have an identifier called primary key and the data values are stored in the form of tables.
+-------------------------------------------------------------
+3)	Normalization is not present in DBMS.	
+    Normalization is present in RDBMS.
+-----------------------------------------------------------
+4)	DBMS uses file system to store data, so there will be no relation between the tables.
+  RDBMS, data values are stored in the form of tables, so a relationship between these data values will be stored in the form of a table as well.
+  ----------------------------------------------------------
+5) DBMS does not support distributed database.
+   RDBMS supports distributed database.
+ ---------------------------------------------------------
+9)	Examples of DBMS are file systems, xml etc.
+	Example of RDBMS are mysql, postgre, sql server, oracle etc.
+---------------------------------------------------------------
+4.-> *DATA REDUNDANCY...*
+Data redundancy is when multiple copies of the same information are stored in more than one place at a time.It is the concept of storing multiple copies of the same data in different parts of the database.
+---------------------------------------------------------------
+5.-> *DDL....DATA DEFINIOTION LANGUAGE*
+Data Definition Language (DDL) is used to create and modify the structure...
+Data definition language (DDL) describes the portion of SQL that creates, alters, and deletes database objects. These database objects include schemas, tables, views, sequences, catalogs, indexes, variables, masks, permissions, and aliases.
+---------------------------------------------------------------
+6.->*DDL...........*
+ -> Data Definition Language (DDL) is used to create and modify the structure of objects in a database using predefined commands and a specific syntax. These database objects include tables, sequences, locations, aliases, schemas and indexes.
+
+ DDL is a standardized language with commands to define the storage groups (stogroups), different structures and objects in a database. DDL statements create, modify and remove database objects, such as tables, indexes and stogroups. DDL is also used in a generic sense to refer to any language that describes data.
+
+   DDL includes Structured Query Language (SQL) statements to create and drop databases, aliases, locations, indexes, tables and sequences. It also includes statements to alter these objects and impose or drop certain constraints on tables, such as the following:
+
+   UNIQUE
+   PRIMARY
+   FOREIGN KEY
+   CHECK
+
+   ->These constraints are used to enforce uniqueness, referential or domain integrity.
+---------------------------------------------------------------
+7.->*DML COMPILER IN SQL......*
+It processes the DDL statements into a set of table containing meta data (data about data). 
+---------------------------------------------------------------
+8.->*SQL Key Constraints......*
+ -> SQL constraints are used to specify rules for the data in a table.
+
+Constraints are used to limit the type of data that can go into a table. This ensures the accuracy and reliability of the data in the table. If there is any violation between the constraint and the data action, the action is aborted.
+Constraints can be column level or table level. Column level constraints apply to a column, and table level constraints apply to the whole table.
+Example:
+ALTER TABLE `table_name` ADD PRIMARY KEY(`field_name`);
+---------------------------------------------------------------
+9.->*SAVE POINT....*
+A save point is a logical rollback point within a transaction. When you set a save point, whenever an error occurs past a save point, you can undo the events you have done up to the save point using the rollback.
+MySQL InnoDB provides support for the statements SAVEPOINT, ROLLBACK TO SAVEPOINT, RELEASE SAVEPOINT.
+The SAVEPOINT statement is used to set a save point for the transaction with the specified name. If a save point with the given name already exists the old one will be deleted.
+
+Query:
+SAVEPOINT identifier
+---------------------------------------------------------------
+10.->*TRIGGER....*
+Trigger is a statement that a system executes automatically when there is any modification to the database. 
+In a trigger, we first specify when the trigger is to be executed and then the action to be performed when the trigger executes.  
+Triggers are used to specify certain integrity constraints and referential constraints that cannot be specified using the constraint mechanism of SQL. 
+
+*how to create a Trigger in SQL:
+The schema_name is the name of the schema to which the new trigger belongs. The schema name is optional.
+
+    ->The trigger_name is the user-defined name for the new trigger.
+
+    ->The table_name is the table to which the trigger applies.
+
+    ->The event is listed in the AFTER clause. The event could be INSERT, UPDATE, or DELETE. A single trigger can fire in response to one or more actions against the table.
+
+    ->The NOT FOR REPLICATION option instructs SQL Server not to fire the trigger when data modification is made as part of a replication process.
+    
+    ->The sql_statements is one or more Transact-SQL used to carry out actions once an event occurs.
+
+
+
+
+
+
+
+
+
